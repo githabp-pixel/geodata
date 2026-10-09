@@ -1,0 +1,40 @@
+{
+  "Name": "Narrow",
+  "GlobalProxy": "false",
+  "RouteOrder": "direct-proxy-block",
+  "RemoteDNSType": "DoH",
+  "RemoteDNSDomain": "https://cloudflare-dns.com/dns-query",
+  "RemoteDNSIP": "1.1.1.1",
+  "DomesticDNSType": "DoH",
+  "DomesticDNSDomain": "https://dns.google/dns-query",
+  "DomesticDNSIP": "8.8.8.8",
+  "Geoipurl": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/release/geoip.dat",
+  "Geositeurl": "https://raw.githubusercontent.com/githabp-pixel/geodata/main/geosite.dat",
+  "DnsHosts": {},
+  "DirectSites": [
+    "geosite:ru-available-only-inside",
+    "geosite:narrow-direct"
+  ],
+  "DirectIp": [
+    "geoip:private"
+  ],
+  "ProxySites": [
+    "geosite:ru-blocked",
+    "geosite:youtube",
+    "geosite:meta",
+    "geosite:telegram",
+    "geosite:discord",
+    "geosite:category-ai-!cn",
+    "geosite:narrow-proxy"
+  ],
+  "ProxyIp": [
+    "geoip:facebook",
+    "geoip:telegram"
+  ],
+  "BlockSites": [],
+  "BlockIp": [],
+  "DomainStrategy": "IPIfNonMatch",
+  "FakeDNS": "false",
+  "LastUpdated": "1791578232",
+  "UseChunkFiles": "true"
+}
