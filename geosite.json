@@ -1,0 +1,17 @@
+{
+  "built": 1795263765,
+  "bytes": 1564116,
+  "sha256": "9c67ed8399e5d00d1f5dffecde276db68fef62606477caacec76fcb7fd9d1f4c",
+  "source_sha256": "eb5af5354723d2be705f6647e556f52f61e6a869099e928382c88d9be6fbafa1",
+  "categories": {
+    "ru-blocked": 73607,
+    "youtube": 178,
+    "meta": 556,
+    "telegram": 21,
+    "discord": 28,
+    "category-ai-!cn": 219,
+    "ru-available-only-inside": 170,
+    "narrow-proxy": 832,
+    "narrow-direct": 1
+  }
+}
